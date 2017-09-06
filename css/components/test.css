@@ -1,10 +1,8 @@
-/* This file is for your main application css. */
-
 .test {
   &__component {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 2.5em;
     font-weight: 300;
-    color: #5570EC;
+    color: #6195ED;
   }
 }
