@@ -22,14 +22,14 @@ Specifially, it's a starting point to create new template for elixir app.
 npm install -g brunch
 ```
 
-2. Create new brunch project based on this skeleton:
+2. Create new directory for the new project:
 ```
-brunch new --skeleton https://github.com/scarfacedeb/brunch-elixir-web
+mkdir new_app && cd new_app
 ```
 
-3. Install dependencies:
+2. Fetch brunch skeleton:
 ```
-yarn install  # or npm install
+brunch new --skeleton https://github.com/scarfacedeb/brunch-elixir-web
 ```
 
 4. Run brunch watcher:
