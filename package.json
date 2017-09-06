@@ -27,6 +27,7 @@
     "postcss-nested": "^2.1.2",
     "postcss-selector-matches": "^3.0.1",
     "postcss-selector-not": "^3.0.1",
+    "stylelint-config-standard": "^17.0.0",
     "uglify-js-brunch": "2.1.1"
   }
 }
