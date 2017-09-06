@@ -1,6 +1,6 @@
 // Import dependencies
 //
-// import 'slick'
+// import _ from 'lodash';
 //
 // Import local files
 //
