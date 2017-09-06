@@ -1,18 +1,18 @@
 // Import dependencies
 //
-// import "slick"
+// import 'slick'
 //
 // Import local files
 //
 // Local files can be imported directly using relative
-// paths "./components/Input" or full ones "js/components/Input".
+// paths './components/Input' or full ones 'js/components/Input'.
 //
-// import Input from "./components/Input"
+// import Input from './components/Input'
 
-import { ready } from "js/utils";
+import { ready } from './utils';
 
 const init = () => {
-  console.log("Init JS");
+  console.log('Init JS');
 };
 
 ready(init);
