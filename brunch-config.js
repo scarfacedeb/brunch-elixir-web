@@ -34,14 +34,16 @@ exports.config = {
     },
     postcss: {
       processors: [
-        require('postcss-import')(),
+        require('postcss-easy-import')({ prefix: '_' }),
         require('postcss-nested')(),
+        require('postcss-custom-properties')(),
         require('postcss-selector-matches')(),
         require('postcss-selector-not')(),
         require('autoprefixer')(),
         require('postcss-discard-empty')(),
         require('css-mqpacker')(),
-      ]
+      ],
+
     },
   },
 
